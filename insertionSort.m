@@ -11,5 +11,5 @@ function A= insertionSort(A)
      endwhile
      A(i+1)=key;
    endfor
-  
+   
 endfunction

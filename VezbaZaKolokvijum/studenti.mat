@@ -1,0 +1,162 @@
+# Created by Octave 4.2.2, Sun Dec 09 20:42:13 2018 CET <marko@marko-ubuntu>
+# name: studenti
+# type: struct
+# ndims: 2
+ 1 5
+# length: 4
+# name: ime
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 11
+Marko Novic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 13
+Mihajlo Saric
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 13
+Igor Ninkovic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 10
+Sasa Tosic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 14
+Kolega Snajder
+
+
+
+
+
+# name: prvi
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: scalar
+13
+
+
+
+# name: <cell-element>
+# type: scalar
+13
+
+
+
+# name: <cell-element>
+# type: scalar
+11
+
+
+
+# name: <cell-element>
+# type: scalar
+1
+
+
+
+# name: <cell-element>
+# type: scalar
+12
+
+
+
+
+
+# name: drugi
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: scalar
+13
+
+
+
+# name: <cell-element>
+# type: scalar
+14
+
+
+
+# name: <cell-element>
+# type: scalar
+10
+
+
+
+# name: <cell-element>
+# type: scalar
+12
+
+
+
+# name: <cell-element>
+# type: scalar
+1
+
+
+
+
+
+# name: treci
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+12
+
+
+
+# name: <cell-element>
+# type: scalar
+15
+
+
+
+# name: <cell-element>
+# type: scalar
+1
+
+
+
+
+
+
+

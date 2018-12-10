@@ -1,67 +1,68 @@
-% MergeSort
+%MergeSort
 
 function A = MergeSort(A)
   
   if length(A)>1
-    
-    [levi, desni]=split(A);
-    levi=MergeSort(levi);
-    desni=MergeSort(desni);
-    A=merge(levi,desni);
-    
+    [leva,desna]=split(A);
+    leva=MergeSort(leva);
+    desna=MergeSort(desna);
+    A=merge(leva,desna);
   endif
   
 endfunction
 
-function [levi, desni]=split(A)
+function [leva, desna] = split(A)
   
-  state=true;
   j=1;
   k=1;
+  state=true;
   for i=1:length(A)
+    
     if state
-      levi(j)=A(i);
+      leva(j)=A(i);
       j++;
-    else 
-      desni(k)=A(i);
+    else
+      desna(k)=A(i);
       k++;
     endif
-    state=!state;
+    
+  state=!state;
   endfor
   
 endfunction
 
-function A = merge(levi,desni)
+function A = merge(leva,desna)
   
-  levivel=length(levi);
-  desnivel=length(desni);
+  levavel=length(leva);
+  desnavel=length(desna);
   
-  levi(levivel+1)=inf;
-  desni(desnivel+1)=inf;
+  leva(levavel+1)=inf;
+  desna(desnavel+1)=inf;
   
   i=1;
   j=1;
   k=1;
   
-  while levi(i) ~= inf && desni(j) ~= inf
-    if levi(i)<=desni(j)
-      A(k)=levi(i);
-      i++;  
-    else 
-      A(k)=desni(j);
+  while leva(i)!=inf && desna(j)!=inf
+    
+    if leva(i)<=desna(j)
+      A(k)=leva(i);
+      i++;
+    else
+      A(k)=desna(j);
       j++;
     endif
     k++;
   endwhile
   
-  while levivel>=i
-    A(k)=levi(i);
+  while levavel>=i
+    A(k)=leva(i);
     i++;
     k++;
   endwhile
   
-  while desnivel>=j
-    A(k)=desni(j);
+  while desnavel>=j
+    A(k)=desna(j);
     j++;
     k++;
   endwhile

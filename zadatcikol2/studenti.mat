@@ -1,0 +1,172 @@
+# Created by Octave 4.2.2, Wed Dec 12 19:05:17 2018 CET <marko@marko-ubuntu>
+# name: studenti
+# type: struct
+# ndims: 2
+ 1 5
+# length: 4
+# name: ime
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 5
+Marko
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 7
+Mihajlo
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 4
+Igor
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 5
+Marko
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 4
+Sasa
+
+
+
+
+
+# name: prezime
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 5
+Novic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 5
+Saric
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 8
+Ninkovic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 6
+Kostic
+
+
+
+# name: <cell-element>
+# type: string
+# elements: 1
+# length: 5
+Tosic
+
+
+
+
+
+# name: brIndeksa
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: scalar
+139
+
+
+
+# name: <cell-element>
+# type: scalar
+154
+
+
+
+# name: <cell-element>
+# type: scalar
+144
+
+
+
+# name: <cell-element>
+# type: scalar
+79
+
+
+
+# name: <cell-element>
+# type: scalar
+1
+
+
+
+
+
+# name: ocena
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: scalar
+10
+
+
+
+# name: <cell-element>
+# type: scalar
+9
+
+
+
+# name: <cell-element>
+# type: scalar
+8
+
+
+
+# name: <cell-element>
+# type: scalar
+10
+
+
+
+# name: <cell-element>
+# type: scalar
+7
+
+
+
+
+
+
+

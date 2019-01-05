@@ -19,5 +19,5 @@ t = triu(rand(i)>0.96, 1);
 G.AdjMatrix =  t + t';
 clear people t tline C ans fid i
 
-Gp = zadatak94(G);
+Gp = Friends(G);
 plotGraph(Gp);

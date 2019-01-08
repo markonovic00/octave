@@ -11,7 +11,6 @@ function G = DFS(G,s,idTr)
     
     G.V(u).color='W';
     G.V(u).pred=NaN;
-    G.V(u).grupa=NaN;
     
   endfor
   

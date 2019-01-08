@@ -8,8 +8,8 @@ function G = BFS(G,s) % s-Starting point
   for u=v(v~=s)
     
     G.V(u).color='W';
-    G.V(u).d=NaN;
-    G.V(u).pred=inf;
+    G.V(u).d=inf;
+    G.V(u).pred=NaN;
     
   endfor
     % Postavljanje prvog elementa

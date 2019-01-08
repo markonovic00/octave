@@ -1,6 +1,6 @@
 % DFS
 
-function G = DFS(G,s)
+function G = DFS(G)
   
   global time;
   v = 1:length(G.AdjMatrix);

@@ -53,6 +53,6 @@ function G = DFS_Visit(G,u)
     
   endfor
   
-  G.V(u).color='B';
+  G.V(u).color='W';
   
 endfunction

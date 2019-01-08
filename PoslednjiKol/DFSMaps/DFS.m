@@ -15,33 +15,20 @@ function G = DFS(G,s,idTr)
     
   endfor
   
-  global grupa;
-  grupa=0;
   time=0;
   
-  for u=v
-    
-    if G.V(u).color=='W' && u==s
-      
-      G=DFS_Visit(G, u, idTr);
-      grupa=grupa+1;
-      
-    endif
-    
-  endfor
+  G=DFS_Visit(G, s, idTr);
   
 endfunction
 
 function G = DFS_Visit(G,u,idTr)
   
-  global grupa;
   global time;
   global start;
   time=time+1;
   
   G.V(u).color='G';
   G.V(u).d=time;
-  G.V(u).grupa=grupa;
   
   for v=find(G.AdjMatrix(u,:))
     

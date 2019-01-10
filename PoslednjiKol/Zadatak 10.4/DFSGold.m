@@ -3,6 +3,8 @@
 function [path,G] = DFSGold(G,s)
   
   global start;
+  global put;
+  put={};
   path={};
   start=s;
   v=1:length(G.AdjMatrix);
@@ -17,6 +19,7 @@ function [path,G] = DFSGold(G,s)
   time=0;
   
   G=DFS_Visit(G,s);
+  path=put;
   
 endfunction
 
@@ -24,7 +27,7 @@ endfunction
 function G = DFS_Visit(G,u)
  
   global start;
-  
+  global put;
   G.V(u).color='G';
   
   for v=find(G.AdjMatrix(u,:))
@@ -45,7 +48,8 @@ function G = DFS_Visit(G,u)
           
         endwhile
         
-        path=[start path]
+        path=[start path];
+        put={put path};
         
       endif
       

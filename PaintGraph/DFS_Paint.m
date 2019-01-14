@@ -31,7 +31,6 @@ endfunction
 
 function G = DFS_Paint_Visit(G,u)
   
-  count=0;
   global colors;
   G.V(u).col='G';
   cbr=0;
@@ -40,7 +39,6 @@ function G = DFS_Paint_Visit(G,u)
     if G.V(v).col=='W'
       
       G.V(v).pred=u;
-      count++;
       
       if G.V(u).color~=G.V(v).color && count > 2
         
